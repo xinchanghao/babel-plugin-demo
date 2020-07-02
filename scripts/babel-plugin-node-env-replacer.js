@@ -11,7 +11,8 @@ module.exports = function ({ types: t }) {
           if (t.isStringLiteral(key)) {
             // path.replaceWith( newNode ) 用来替换当前节点
             // t.valueToNode( value ) 用来创建节点，如果value是字符串，则返回字符串字面量类型的节点
-            path.replaceWith(t.valueToNode(process.env[key.value]));
+
+            path.replaceWith(t.valueToNode(state.opts[key.value]));
           }
         }
       },

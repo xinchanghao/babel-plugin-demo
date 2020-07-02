@@ -3,7 +3,9 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  // console.log(222, process.env.NODE_ENV, typeof window === "object");
+  if (process.env.NODE_ENV === "development") {
+    console.log("我是程序猿");
+  }
 
   return (
     <div className="App">

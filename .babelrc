@@ -6,6 +6,12 @@
         "bad": "good",
         "dead": "alive"
       }
+    ],
+    [
+      "./scripts/babel-plugin-node-env-replacer",
+      {
+        "NODE_ENV": "production"
+      }
     ]
   ]
 }

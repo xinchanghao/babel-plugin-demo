@@ -1,4 +1,4 @@
-// deadly.js
+// index.js
 let bad = true;
 
 let dead = true;
