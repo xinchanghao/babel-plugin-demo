@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    [
+      "./scripts/babel-plugin-deadly-simple",
+      {
+        "bad": "good",
+        "dead": "alive"
+      }
+    ]
+  ]
+}
